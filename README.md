@@ -94,10 +94,11 @@ To link to your cluster you have two options:
 ### Setup `gcloud` on your local machine
 
 1. Install `gcloud` for your particular platform: https://cloud.google.com/sdk/docs/install
-2. Link to your Google Cloud Platform account by running `gcloud auth login`
-3. Install `kubectl` , instructions: [here](https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl#install_kubectl)
+2. Reboot your terminal to make sure the next step will work (not needed on all terminals, but crucial for some)
+3. Link to your Google Cloud Platform account by running `gcloud auth login`
+4. Install `kubectl` , instructions: [here](https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl#install_kubectl)
 > Note: If you already have kubectl you can skip this step but you'll still need to install the plugin in the next step
-4. Install the required `gke-gcloud-auth-plugin`, instructions [here](https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl#install_plugin)
+5. Install the required `gke-gcloud-auth-plugin`, instructions [here](https://cloud.google.com/kubernetes-engine/docs/how-to/cluster-access-for-kubectl#install_plugin)
 
 > If you encounter any issues following these steps, not to worry, we will go through them again during the training
 
